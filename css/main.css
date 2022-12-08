@@ -954,4 +954,42 @@ a{
     text-align: right;
     color: #fff;    
 }
+
+/* MOBILE START */
+@media only screen and (max-width: 768px){
+    .site-footer__item:nth-child(1){
+        margin-right: 0;
+    }
+}
+
+@media only screen and (max-width: 600px){
+    .site-footer__list{
+        display: flex;
+        flex-direction: column;
+    }
+    .site-footer__item:nth-child(1){
+        margin-right: 0;
+    }
+    .site-footer__item:last-child{
+        margin-left: 0;
+    }
+}
+
+@media only screen and (max-width: 350px){
+    .site-footer__start{
+        padding-top: 50px;
+        padding-bottom: 50px;
+        border-bottom: 1px solid #3B4155;
+    }
+    .site-footer__item-title{
+        margin-top: 20px;
+    }
+
+    .site-footer__end-wrapper{
+        display: flex;
+        flex-direction: column;
+    }
+}
+/* MOBILE END */
+
 /***************** FOOTER STYLES END *****************/
